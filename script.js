@@ -2,6 +2,7 @@
 function  start(){
     
    // $("body").css("background-color", "pink");
+      $("menu a:first").click();
 }
 
 $(window).on("load", start);
