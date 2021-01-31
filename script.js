@@ -14,7 +14,9 @@ function loadpage(e){
    $(this).addClass("active");
     //alert("!");
 
-  $("#content").load("about.html");
+  
+    let href = $(this).attr("href");
+    $("#content").load("href");
 }
 
 $(document).on("click", "#menu a", loadpage);
